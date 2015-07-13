@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6245" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
@@ -22,8 +23,8 @@
             </subviews>
             <constraints>
                 <constraint firstAttribute="bottom" secondItem="kM4-IZ-dgW" secondAttribute="bottom" id="HWq-c5-fxo"/>
-                <constraint firstItem="kM4-IZ-dgW" firstAttribute="leading" secondItem="0Ms-a6-YUP" secondAttribute="leading" id="OEX-iw-1Sy"/>
-                <constraint firstAttribute="trailing" secondItem="kM4-IZ-dgW" secondAttribute="trailing" id="Ori-kw-SaU"/>
+                <constraint firstItem="kM4-IZ-dgW" firstAttribute="left" secondItem="0Ms-a6-YUP" secondAttribute="left" id="OEX-iw-1Sy"/>
+                <constraint firstAttribute="right" secondItem="kM4-IZ-dgW" secondAttribute="right" id="Ori-kw-SaU"/>
                 <constraint firstItem="kM4-IZ-dgW" firstAttribute="top" secondItem="0Ms-a6-YUP" secondAttribute="top" id="zUW-1v-N5P"/>
             </constraints>
             <connections>
